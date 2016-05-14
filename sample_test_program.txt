@@ -1,0 +1,20 @@
+#include<iostream>
+//
+//
+//
+// FOR ADDING OTHER INCLUDES
+//
+//
+//
+//
+int main()
+{
+	@int a=0;
+	@vector<int> cont(10,0);
+	#,LOOP1,10
+	@for(i=0;i<10;i++)
+	{
+		@,#,LOOP1,cont[i]=2;	
+	}
+	@return 0;
+}

@@ -1,0 +1,117 @@
+              Procedure           Image            Address        Calls Instructions
+                  .fini   libgcc_s.so.1       7f48d382a998            1            3
+   __cpu_indicator_init   libgcc_s.so.1       7f48d381ac00            1           89
+                  .text   libgcc_s.so.1       7f48d381aab0            1          115
+                   .plt   libgcc_s.so.1       7f48d381a7e0            1            5
+                  _init   libgcc_s.so.1       7f48d381a7c0            1            6
+                  .fini       libm.so.6       7f48d3aa21b8            1            3
+                  .text       libm.so.6       7f48d3a33610            0           37
+                   .plt       libm.so.6       7f48d3a33420            0            3
+                  _init       libm.so.6       7f48d3a33400            1            6
+_dl_mcount_wrapper_check       libc.so.6       7f48d3e6a070          128          512
+               wctype_l       libc.so.6       7f48d3e32790            9          876
+                  _Exit       libc.so.6       7f48d3df52d0            1            8
+                  wctob       libc.so.6       7f48d3dd7bd0          128         2432
+                  btowc       libc.so.6       7f48d3dd7a40          256         8064
+                 rindex       libc.so.6       7f48d3dbe7c0            1           24
+                 strlen       libc.so.6       7f48d3dbcac0           58          928
+          _IO_file_sync       libc.so.6       7f48d3dac800            6           78
+                 fflush       libc.so.6       7f48d3da1ee0            6          246
+       __call_tls_dtors       libc.so.6       7f48d3d70860            1           12
+         __cxa_finalize       libc.so.6       7f48d3d70550            3          231
+           __cxa_atexit       libc.so.6       7f48d3d704c0            5          110
+                   exit       libc.so.6       7f48d3d70290            1            4
+                _setjmp       libc.so.6       7f48d3d6ab20            1            2
+            __sigsetjmp       libc.so.6       7f48d3d6aa80            1           27
+           __ctype_init       libc.so.6       7f48d3d64100            1           16
+              uselocale       libc.so.6       7f48d3d63850            2           42
+              newlocale       libc.so.6       7f48d3d62f70            1           40
+      __libc_start_main       libc.so.6       7f48d3d55dd0            1           60
+                  _init       libc.so.6       7f48d3d55c20            1          101
+                  .text       libc.so.6       7f48d3d534a0            0          148
+                   .plt       libc.so.6       7f48d3d533d0            1            5
+                  .fini  libstdc++.so.6       7f48d41db7c4            1            3
+_ZNSt14error_categoryC1Ev  libstdc++.so.6       7f48d41ce7c0            3           12
+_ZNSt14error_categoryD2Ev  libstdc++.so.6       7f48d41ce630            3           12
+ _ZSt15future_categoryv  libstdc++.so.6       7f48d41cdc30            1           21
+_ZSt9has_facetISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEEbRKSt6locale  libstdc++.so.6       7f48d41bf4c0            4           84
+_ZSt9has_facetISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEEbRKSt6locale  libstdc++.so.6       7f48d41bf470            4           84
+_ZSt9has_facetISt5ctypeIwEEbRKSt6locale  libstdc++.so.6       7f48d41bf330            4           84
+_ZSt9use_facetISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEERKT_RKSt6locale  libstdc++.so.6       7f48d41be230            4           76
+_ZSt9use_facetISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEERKT_RKSt6locale  libstdc++.so.6       7f48d41be1e0            4           76
+_ZSt9use_facetISt5ctypeIwEERKT_RKSt6locale  libstdc++.so.6       7f48d41bd5c0            4           76
+  _ZNSt8messagesIwEC1Em  libstdc++.so.6       7f48d41bd130            1           19
+_ZNSt11__timepunctIwEC2EPSt17__timepunct_cacheIwEm  libstdc++.so.6       7f48d41bc960            1           22
+_ZNSt13basic_ostreamIwSt11char_traitsIwEE5flushEv  libstdc++.so.6       7f48d41b3210            3           42
+          _ZNSo5flushEv  libstdc++.so.6       7f48d41b0fd0            3           42
+_ZN9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEE4syncEv  libstdc++.so.6       7f48d41b06e0            3            6
+_ZN9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEE4syncEv  libstdc++.so.6       7f48d41b06d0            3            6
+_ZSt9has_facetISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEEbRKSt6locale  libstdc++.so.6       7f48d41a4450            4           84
+_ZSt9has_facetISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEEbRKSt6locale  libstdc++.so.6       7f48d41a4400            4           84
+_ZSt9has_facetISt5ctypeIcEEbRKSt6locale  libstdc++.so.6       7f48d41a42c0            4           84
+_ZSt9use_facetISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEERKT_RKSt6locale  libstdc++.so.6       7f48d41a3690            4           76
+_ZSt9use_facetISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEERKT_RKSt6locale  libstdc++.so.6       7f48d41a3640            4           76
+_ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale  libstdc++.so.6       7f48d41a27e0            4           76
+  _ZNSt8messagesIcEC1Em  libstdc++.so.6       7f48d41a2350            1           19
+_ZNSt11__timepunctIcEC2EPSt17__timepunct_cacheIcEm  libstdc++.so.6       7f48d41a1b80            1           22
+_ZNSt9basic_iosIwSt11char_traitsIwEE4initEPSt15basic_streambufIwS1_E  libstdc++.so.6       7f48d4199f50            4           88
+_ZNSt9basic_iosIwSt11char_traitsIwEE15_M_cache_localeERKSt6locale  libstdc++.so.6       7f48d4199e10            4          120
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E  libstdc++.so.6       7f48d41997f0            4           88
+_ZNSt9basic_iosIcSt11char_traitsIcEE15_M_cache_localeERKSt6locale  libstdc++.so.6       7f48d41996b0            4          120
+_ZNSt6locale5facet18_S_create_c_localeERP15__locale_structPKcS2_  libstdc++.so.6       7f48d4198f00            1            9
+_ZNSt11__timepunctIwE23_M_initialize_timepunctEP15__locale_struct  libstdc++.so.6       7f48d4197e60            1          105
+_ZNSt11__timepunctIcE23_M_initialize_timepunctEP15__locale_struct  libstdc++.so.6       7f48d41974d0            1          107
+_ZNSt8numpunctIwE22_M_initialize_numpunctEP15__locale_struct  libstdc++.so.6       7f48d4197270            1          349
+_ZNSt8numpunctIcE22_M_initialize_numpunctEP15__locale_struct  libstdc++.so.6       7f48d4197040            1          413
+_ZNSt10moneypunctIwLb0EE24_M_initialize_moneypunctEP15__locale_structPKc  libstdc++.so.6       7f48d4196920            1          108
+_ZNSt10moneypunctIwLb1EE24_M_initialize_moneypunctEP15__locale_structPKc  libstdc++.so.6       7f48d4196320            1          108
+_ZNSt10moneypunctIcLb0EE24_M_initialize_moneypunctEP15__locale_structPKc  libstdc++.so.6       7f48d4195de0            1          112
+_ZNSt10moneypunctIcLb1EE24_M_initialize_moneypunctEP15__locale_structPKc  libstdc++.so.6       7f48d41958a0            1          112
+_ZNSt5ctypeIwE19_M_initialize_ctypeEv  libstdc++.so.6       7f48d41951c0            1         2757
+_ZNKSt5ctypeIwE19_M_convert_to_wmaskEt  libstdc++.so.6       7f48d4194c10           12          129
+ _ZNSt5ctypeIcEC2EPKtbm  libstdc++.so.6       7f48d4194950            1          159
+       _ZNSt6localeC1Ev  libstdc++.so.6       7f48d418dd90           22          462
+ _ZNSt6locale5_ImplC1Em  libstdc++.so.6       7f48d418cbc0            1          819
+_ZNSt6locale5_Impl16_M_install_facetEPKNS_2idEPKNS_5facetE  libstdc++.so.6       7f48d418c810           28         7448
+_ZNKSt6locale2id5_M_idEv  libstdc++.so.6       7f48d418c7d0           84          700
+       _ZNSt6localeD1Ev  libstdc++.so.6       7f48d418c430            8           96
+    _ZNSt6localeaSERKS_  libstdc++.so.6       7f48d418c3b0            8          136
+_ZNSt6locale5facet13_S_get_c_nameEv  libstdc++.so.6       7f48d418c200            5           10
+_ZNSt6locale5facet15_S_get_c_localeEv  libstdc++.so.6       7f48d418c1c0           10           92
+_ZNSt8ios_base7_M_initEv  libstdc++.so.6       7f48d418b7a0            8          144
+_ZNSt8ios_base4InitD1Ev  libstdc++.so.6       7f48d418b4a0            1           24
+_ZNSt8ios_base4InitC2Ev  libstdc++.so.6       7f48d418abd0            1          270
+     _ZNSt8ios_baseC2Ev  libstdc++.so.6       7f48d418a6d0            8          472
+     _ZNSt5ctypeIwEC2Em  libstdc++.so.6       7f48d418a2e0            1           19
+_ZNSt7codecvtIwc11__mbstate_tEC2Em  libstdc++.so.6       7f48d4187650            1           17
+_ZNSt7codecvtIcc11__mbstate_tEC1Em  libstdc++.so.6       7f48d41875b0            1           17
+_ZNK10__cxxabiv121__vmi_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE  libstdc++.so.6       7f48d417cbc0            8          464
+_ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE  libstdc++.so.6       7f48d417c220           40         1400
+    __cxa_guard_release  libstdc++.so.6       7f48d417bbc0            1            5
+    __cxa_guard_acquire  libstdc++.so.6       7f48d417ba90            1           26
+         __dynamic_cast  libstdc++.so.6       7f48d417a140           48         2160
+                  .text  libstdc++.so.6       7f48d4178620            0          294
+                   .plt  libstdc++.so.6       7f48d4175cc0           62         1001
+                  _init  libstdc++.so.6       7f48d4175c98            1            6
+                realloc ld-linux-x86-64.so.2       7f48e795adb0            0          725
+                   free ld-linux-x86-64.so.2       7f48e795ac40            2           12
+                 calloc ld-linux-x86-64.so.2       7f48e795ac00           18          144
+                 malloc ld-linux-x86-64.so.2       7f48e795abf0           35          105
+        __libc_memalign ld-linux-x86-64.so.2       7f48e795aae0           36         1160
+         __tls_get_addr ld-linux-x86-64.so.2       7f48e7956340            1           11
+  _dl_allocate_tls_init ld-linux-x86-64.so.2       7f48e7955c00            1          129
+        _dl_debug_state ld-linux-x86-64.so.2       7f48e7953970            2            2
+                  .text ld-linux-x86-64.so.2       7f48e7943ae0            0         8844
+                   .plt ld-linux-x86-64.so.2       7f48e7943a70            0           89
+                  _fini            apna             4007e4            1            3
+        __libc_csu_init            apna             400770            1           41
+    _GLOBAL__sub_I_main            apna             40075b            1            7
+_Z41__static_initialization_and_destruction_0ii            apna             40071e            1           17
+                   main            apna             4006cd            1           56
+            frame_dummy            apna             4006a0            1            3
+  __do_global_dtors_aux            apna             400680            1            8
+     register_tm_clones            apna             400640            1           12
+   deregister_tm_clones            apna             400610            1            8
+                 _start            apna             4005e0            1           11
+                   .plt            apna             400580            4           20
+                  _init            apna             400558            1            6
